@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 
-df=pd.read_csv(r'C:\Users\lengh\Downloads\code\python\ML file\balanced_df.csv')
+df=pd.read_csv(r'balanced_df.csv')
 
 X=df['review']
 y=df['sentiment']
